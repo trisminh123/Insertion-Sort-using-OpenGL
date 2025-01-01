@@ -71,7 +71,7 @@ void drawArray(int it, int skip) {
 				drawElement(list[i], 1.0, 0.0, 0.0);
 			}
 		}
-		Sleep(150); // dung man hinh do hoa trong 150ms
+		Sleep(75); // dung man hinh do hoa trong 75ms
 	}
 	glFlush(); // cap nhat man hinh do hoa
 }
@@ -122,7 +122,7 @@ void display()
 {
 	drawArray(-1, -1);
 	insertionSort();
-	Sleep(10000); // dung 10000 ms roi thoat chuong trinh
+	Sleep(3000); // dung 3000 ms roi thoat chuong trinh
 	exit(0);
 }
 
